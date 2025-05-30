@@ -5,7 +5,7 @@ import random
 app = Flask(__name__)
 
 
-# Generate name
+# Generate personality traits
 @app.route('/gen-traits', methods=['POST'])
 def gen_traits():
     """Returns positive and negative personality traits randomly chosen from race specific options"""
